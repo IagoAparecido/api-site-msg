@@ -1,4 +1,7 @@
 import * as nodemailer from 'nodemailer';
+import { config as dotenvConfig } from 'dotenv';
+
+dotenvConfig();
 
 export const transporter = nodemailer.createTransport({
   host: process.env.EMAIL_HOST,

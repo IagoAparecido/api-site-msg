@@ -1,5 +1,4 @@
 export const queueKeys = {
+  QUEUE_NAME: 'message-queue',
   SEND_CONFIRM_EMAIL: 'send-confirm-email',
 };
-
-export const queueName = 'MESSAGE_QUEUE';
